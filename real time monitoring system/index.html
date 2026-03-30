@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined View</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            width: 90%;
+            height: 90vh;
+            gap: 10px;
+        }
+        iframe {
+            width: 50%;
+            height: 100%;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <iframe src="http://192.168.137.31/" frameborder="0"></iframe>
+        <iframe src="http://192.168.137.187/" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
